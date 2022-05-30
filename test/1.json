@@ -1,0 +1,50 @@
+{
+    "nodes": ["A", "B", "C", "D", "E", "F"],
+    "edges": [
+        {
+            "src": "A",
+            "dest": "B",
+            "weight": 4
+        },
+        {
+            "src": "A",
+            "dest": "C",
+            "weight": 3
+        },
+        {
+            "src": "B",
+            "dest": "C",
+            "weight": 5
+        },
+        {
+            "src": "B",
+            "dest": "D",
+            "weight": 2
+        },
+        {
+            "src": "C",
+            "dest": "D",
+            "weight": 7
+        },
+        {
+            "src": "D",
+            "dest": "E",
+            "weight": 2
+        },
+        {
+            "src": "E",
+            "dest": "A",
+            "weight": 4
+        },
+        {
+            "src": "E",
+            "dest": "B",
+            "weight": 4
+        },
+        {
+            "src": "E",
+            "dest": "F",
+            "weight": 6
+        }
+    ]
+}
